@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="59" id="KGk-i7-Jjw" customClass="ContentCell" customModule="tables" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kv8-wO-X2d">
+                        <rect key="frame" x="4" y="0.0" width="312" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxK-rr-Rqe">
+                                <rect key="frame" x="44" y="4" width="264" height="52"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airplane.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BcN-GQ-TbQ">
+                                <rect key="frame" x="0.0" y="11" width="40" height="38.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="iWM-t9-Qvi"/>
+                                    <constraint firstAttribute="height" constant="40" id="zm4-sB-Chz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uxK-rr-Rqe" secondAttribute="trailing" constant="4" id="2FH-Fy-7Qt"/>
+                            <constraint firstAttribute="bottom" secondItem="uxK-rr-Rqe" secondAttribute="bottom" constant="4" id="DHA-H6-XEJ"/>
+                            <constraint firstItem="uxK-rr-Rqe" firstAttribute="leading" secondItem="BcN-GQ-TbQ" secondAttribute="trailing" constant="4" id="GOx-Uf-ler"/>
+                            <constraint firstAttribute="height" constant="60" id="Ivx-vJ-7ul"/>
+                            <constraint firstItem="BcN-GQ-TbQ" firstAttribute="leading" secondItem="Kv8-wO-X2d" secondAttribute="leading" id="KQ6-u1-VnM"/>
+                            <constraint firstItem="BcN-GQ-TbQ" firstAttribute="top" secondItem="Kv8-wO-X2d" secondAttribute="top" constant="10" id="VOD-Gh-0wA"/>
+                            <constraint firstItem="uxK-rr-Rqe" firstAttribute="top" secondItem="Kv8-wO-X2d" secondAttribute="top" constant="4" id="xiD-Yb-Loz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kv8-wO-X2d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3IB-a6-3gY"/>
+                    <constraint firstItem="Kv8-wO-X2d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="CW4-Jd-n4c"/>
+                    <constraint firstAttribute="trailing" secondItem="Kv8-wO-X2d" secondAttribute="trailing" constant="4" id="UE7-mC-v1D"/>
+                    <constraint firstAttribute="bottom" secondItem="Kv8-wO-X2d" secondAttribute="bottom" id="pOt-Kp-xTa"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentImage" destination="BcN-GQ-TbQ" id="7HK-jk-4Mi"/>
+                <outlet property="contentLabel" destination="uxK-rr-Rqe" id="lck-qb-sgS"/>
+            </connections>
+            <point key="canvasLocation" x="36.641221374045799" y="-47.535211267605639"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="airplane.circle.fill" catalog="system" width="128" height="123"/>
+    </resources>
+</document>

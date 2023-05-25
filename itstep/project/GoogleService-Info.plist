@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>961889142647-ohftoekqv9sa907e2nvpbpnkljup0pmf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.961889142647-ohftoekqv9sa907e2nvpbpnkljup0pmf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzAEm9Adr23BxUxoA0cLplEGhR4PS60-Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>961889142647</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Daniyal4Real.project</string>
+	<key>PROJECT_ID</key>
+	<string>shopclot-bc953</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shopclot-bc953.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:961889142647:ios:76f18dae1ee6d534694372</string>
+	<key>DATABASE_URL</key>
+	<string>https://shopclot-bc953-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

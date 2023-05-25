@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>216542937038-vd3pk5nm03saegubdfpal2ov5qcm8bo5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.216542937038-vd3pk5nm03saegubdfpal2ov5qcm8bo5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA1OtzljWYpAPstF1A-U_ca4udDMBrPy-U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>216542937038</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Daniyal-Ganiuly.chatApp</string>
+	<key>PROJECT_ID</key>
+	<string>chatsapp-ca26e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chatsapp-ca26e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:216542937038:ios:17d63433c4be03c217b59f</string>
+</dict>
+</plist>
